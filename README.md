@@ -1,12 +1,13 @@
 # micro-service-practice
-基于OpenStack+Docker+RestAPI+OAuth/HMAC+RabbitMQ/ZMQ+OpenResty/HAProxy/Nginx/APIGateway+Bootstrap/AngularJS+Ansible+K8S/Mesos/Marathon构建微服务，使用实例探索微服务架构的最佳实践，希望在敏捷开发、快速部署、可维护性、可扩展性、安全、可靠、性能、日志、监控等方面形成整套行之有效的方法、理论、实践。项目持续更新。
+基于OpenStack+Docker+RestAPI+OAuth/HMAC+RabbitMQ/ZMQ+RPC+OpenResty/HAProxy/Nginx/APIGateway+Bootstrap/AngularJS+Ansible+K8S/Mesos/Marathon构建微服务，使用实例探索微服务架构的最佳实践，希望在敏捷开发、快速部署、可维护性、可扩展性、安全、可靠、性能、日志、监控等方面形成整套行之有效的方法、理论、实践。项目持续更新。
 
 ### 概要:
 * OpenStack: IAAS基础设施，云主机、网络、存储自动化。
 * Docker: 使用容器作为应用交付形式，高效部署、运维。
-* RestfulAPI: 后台接口统一使用RestfulAPI。
+* RestfulAPI: 后台对外接口统一使用RestfulAPI。
 * OAuth/HMAC: 使用OAuth作为用户认证、鉴权，便于分布式系统扩展。
 * RabbitMQ/ZMQ: 模块间交互使用消息队列，点对点+PUB/SUB模式。
+* RPC: 模块之间交互也可以使用RPC，实现高性能、高并发。
 * OpenResty/HAProxy/Nginx/APIGateway: 使用Nginx作为负载均衡和API网关，同时也是前端容器。
 * Bootstrap/AngularJS: 使用AngularJS作为前端MVC框架。
 * Ansible: 使用Ansible作为IAAS层资源自动化管理工具。
